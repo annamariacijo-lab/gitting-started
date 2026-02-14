@@ -49,6 +49,28 @@ sends our package to github successfully!!! ```--public``` essesntially sets the
 ```gh repo list``` 
 this command shows you all the repo's that you have created!
 
+## Editing your first file! 
+
+Now that you have a repo with your files - you'll have to be in a cycle of constantly editing -> saving -> pushing -> editing... and it goes on , you know what i mean ...
+
+Go back to the readme file you created and add the timestamp of when you did it. Once thats done.. Run 
+``` git add README.md ```
+this again , parcel analogy , packs it up , use the "." if you wanna add all files (ideally not recommended because if it has bugs then it can alter the whole code base!!)
+
+```git commit -m "Updated README"```
+seals it with a new commit message!
+
+```git push``` pushes it to the very same repository 
+
+```git status``` good practice to check if all your files are updated , is upto date? and commit status!
+
+## Moving files around!!! 
+```git mv "source" "destination"``` 
+moves the said file from source to its destination!
+
+```git mv "old name" "new name"```
+changes the name of the file that your trying to upload
+
 
 
 ## Git Cloning!
